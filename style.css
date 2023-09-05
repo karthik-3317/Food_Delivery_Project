@@ -6,21 +6,7 @@
     user-select: none;
 }
 
-nav{
-    width: 100%;
-    min-height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-nav button{
-    padding: 10px;
-    border-radius: 10px;
-    color: white;
-    background-color: black;
-    cursor: pointer;
-}
 
 .toogle{
     background: linear-gradient(#867777, rgb(81, 79, 79));
@@ -35,10 +21,7 @@ body{
     background: linear-gradient(#fff6f6, white); 
 }
 
-nav{
-    width: 100%;
-    /* min-height: 6vh; */
-}
+
 
 .container{
     width: 100vw;
