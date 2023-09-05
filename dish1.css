@@ -1,0 +1,107 @@
+body{
+    background-color: aliceblue;
+}
+
+.dishContainer h1{
+    font-size: 33px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    color: red;
+}
+
+.dishContent{
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: rgba(242, 30, 30, 0.883);
+}
+
+.dishContent ul{
+    list-style: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.dishMain h3{
+    font-weight: 800;
+    color: rgb(69, 156, 156);
+    font-size: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    margin-left: 20px;
+}
+
+.bannerphoto1{
+    position: absolute;
+    top: 45%;
+    right: 20%;
+    border: 3px solid rgb(175, 226, 175);
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 12;
+    transform: rotateZ(-10deg);
+}
+
+.bannerphoto2{
+    position: absolute;
+    border: 3px solid rgb(175, 226, 175);
+    background-color: white;
+    top: 15%;
+    cursor: pointer;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    z-index: 99;
+    transform: rotateZ(10deg);
+}
+
+.bannerphoto3{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 700px;
+    mix-blend-mode:luminosity;
+    padding: 10px;
+    transform: rotateZ(10deg);
+}
+
+.image{
+    width: 90%;
+    height: 90%;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.bannerphoto4{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 700px;
+    mix-blend-mode:multiply;
+    top:15%;
+    filter: hue-rotate(130deg);
+    left: 0%;
+    opacity: 0.2;
+    padding: 10px;
+}
